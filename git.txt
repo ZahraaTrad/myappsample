@@ -1,0 +1,188 @@
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App
+$ touch index.html
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App
+$ touch app.js
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App
+$ git init
+Initialized empty Git repository in C:/Users/TOSHIBA/Desktop/My App/.git/
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git config --global user.email 'zahraatrad58@gmail.com'
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git config --global user.name 'Zahraa Trad'
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git add index.html
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git add *.html
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git add .
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git add .
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit
+fatal: cannot lock ref 'HEAD': reference already exists
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit-m"INSERT"
+git: 'commit-mINSERT' is not a git command. See 'git --help'.
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit -m "INSERT"
+On branch master
+nothing to commit, working tree clean
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit -m ":WQ"
+On branch master
+nothing to commit, working tree clean
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git add .
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git coommit -m 'changed app.js'
+git: 'coommit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ git commit -m 'changed app.js'
+[master 1c7a5e8] changed app.js
+ 1 file changed, 1 insertion(+)
+
+TOSHIBA@DESKTOP-OATCOM3 MINGW64 ~/Desktop/My App (master)
+$ clear
